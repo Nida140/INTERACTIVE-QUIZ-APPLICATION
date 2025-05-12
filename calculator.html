@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <style>
+    input, button { margin: 5px; }
+  </style>
+</head>
+<body>
+  <h3>Popup Calculator</h3>
+  <input type="text" id="calcInput" placeholder="0" />
+  <button onclick="calculate()">=</button>
+  <p id="calcResult"></p>
+  <script>
+    function calculate() {
+      let input = document.getElementById("calcInput").value;
+      document.getElementById("calcResult").textContent = eval(input);
+    }
+  </script>
+</body>
+</html>
