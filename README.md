@@ -44,3 +44,7 @@ CSS3
 
 JavaScript (Vanilla)
 
+*OUTPUT*:
+
+![Image](https://github.com/user-attachments/assets/81f2ff52-b620-44e3-b98e-31d57700772c)
+
